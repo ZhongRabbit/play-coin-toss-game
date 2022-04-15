@@ -21,5 +21,5 @@ In order to play this web game, the script needs to:
 
 
 Note:
-1. Since I didn't see a way to check if the coin is fair/biased by examining web elements, the only solution seems to be interact w/ "server-side coin flips" w/ such a script.
+1. Since I didn't see a way to check if the coin is fair/biased by examining web elements, the only solution seems to be interacting w/ "server-side coin flips".
 2. The numbers of heads and tails are unavailable as raw text, so screen capture and OCR were used to extract these info. OCR via PyTesseract is the bottleneck of the script. It's possible to speed this up by hashing all number images and building a lookup dictionary using pre-computed hashes.
